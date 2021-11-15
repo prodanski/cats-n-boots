@@ -1,0 +1,4 @@
+import pandas as pd
+df = pd.DataFrame({'X': [7, 2, 0, 3, 4, 2, 5, 0, 3, 4]}) #random numbers
+df['Y']=[1, 2, 0, 1, 2, 3, 4, 0, 1, 2] #counts where nearest zero is or start of series
+df
